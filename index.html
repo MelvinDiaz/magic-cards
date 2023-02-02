@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    
+    <title>CARTAS MAGIC</title>
+  </head>
+  <body>
+    <div class="Main">
+      <div class="mainTitle">
+        <h1>WHERE THE MAGIC BEGINS</h1>
+      </div>
+      <div class="mainButtons">
+        <button class="mainButton">
+          <a href="#BoosterDraf">Booster Draft</a>
+        </button>
+        <button class="mainButton">
+          <a href="#CheckDeck">Check My Deck</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="Content" id="BoosterDraf">
+      <div class="FirstRow">
+        <h2>Booster Draft</h2>
+      </div>
+      <div class="SecondRow">
+        <div class="controls">
+          <div class="controlsText">
+            <label class="controlsTitle">Controls</label>
+            <label id="countFetchs">Booster Fetched: --</label>
+          </div>
+          <div class="controlsButtons">
+            <button class="buttonsActions" id="GetB">Get new booster</button>
+            <button class="buttonsActions" id="SaveB">Save all cards</button>
+            <button class="buttonsActions" id="ClearB">Clear data</button>
+          </div>
+        </div>
+        <div id="TarjetasB" class="contenedorTarjetas">
+          <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        <article class="emptyCard">
+            <figure><img src="./assets/images/mtg_back.png" alt=""></figure>
+        </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="Content" id="CheckDeck">
+      <div class="FirstRow">
+        <h2>Booster Draft</h2>
+      </div>
+      <div class="SecondRow">
+        <div class="controls">
+          <div class="controlsText">
+            <label class="controlsTitle">Actions</label>
+          </div>
+          <div class="controlsButtons">
+            <button class="buttonsActions" id="Save">Save Deck</button>
+            <button class="buttonsActions" id="Load">Load Deck</button>
+            <button class="buttonsActions" id="Clear">Clear Deck</button>
+          </div>
+        </div>
+        <div id="TarjetasD" class="contenedorTarjetas"></div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="loader"></span>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/main.js" ></script> 
+</html>
